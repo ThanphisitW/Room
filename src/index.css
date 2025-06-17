@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-scroll-up: scrollUp 15s linear;
+  --animate-fade-in: fade-in 0.5s ease-in-out;
+  --animate-fade-out: fade-out 1s ease-in-out;
+
+  @keyframes scrollUp {
+    0% {
+      transform: translateY(70%);
+  }
+    100% {
+      transform: translateY(-100%);
+  }
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+  }
+    100% {
+      opacity: 1;
+
+  }
+  }
+
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+  }
+    100% {
+      opacity: 0;
+
+  }
+  }
+}
