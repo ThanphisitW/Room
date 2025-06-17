@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Html, Loader } from '@react-three/drei'
 import { Suspense } from 'react'
-import { Routes, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar.jsx'
 import Experience from './components/Experience.jsx'
