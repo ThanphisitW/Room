@@ -1,10 +1,10 @@
 import { OrbitControls, useGLTF } from '@react-three/drei'
 import Rain from './Rain'
 
-useGLTF.preload('./models/Room_project-v1.glb', true)
+useGLTF.preload('/models/Room_project-v1.glb', true)
 
 const Model = () => {
-  const { scene } = useGLTF('./models/Room_project-v1.glb')
+  const { scene } = useGLTF('/models/Room_project-v1.glb')
 
 {/*
   useEffect(() => {
